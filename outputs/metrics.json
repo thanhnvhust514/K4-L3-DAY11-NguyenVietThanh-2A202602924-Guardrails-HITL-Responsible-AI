@@ -1,0 +1,17 @@
+{
+  "total_requests": 20,
+  "blocked_requests": 12,
+  "block_rate": 0.6,
+  "rate_limit_hits": 2,
+  "judge_checks": 0,
+  "judge_fails": 0,
+  "judge_fail_rate": 0.0,
+  "alerts": [
+    {
+      "metric": "block_rate",
+      "value": 0.6,
+      "threshold": 0.5,
+      "message": "High request block rate detected."
+    }
+  ]
+}
